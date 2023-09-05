@@ -1688,6 +1688,47 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@mr-yum/sjs-react@workspace:^, @mr-yum/sjs-react@workspace:packages/sjs-react":
+  version: 0.0.0-use.local
+  resolution: "@mr-yum/sjs-react@workspace:packages/sjs-react"
+  dependencies:
+    "@mr-yum/sjs": "workspace:^"
+    "@types/jest": ^27.0.3
+    "@types/node": ^15.12.2
+    "@types/react": ^17.0.34
+    "@types/react-dom": ^17.0.11
+    jest: ^27.4.5
+    jest-dom: ^3.0.2
+    np: ^3.1.0
+    react: ^18.2.0
+    react-dom: ^18.2.0
+    typescript: ^4.8.3
+  peerDependencies:
+    react: 17 - 18
+    react-dom: 17 - 18
+  languageName: unknown
+  linkType: soft
+
+"@mr-yum/sjs@workspace:^, @mr-yum/sjs@workspace:packages/sjs":
+  version: 0.0.0-use.local
+  resolution: "@mr-yum/sjs@workspace:packages/sjs"
+  dependencies:
+    "@stencil/core": ^2.18.0
+    "@stencil/react-output-target": ^0.3.1
+    "@types/jest": ^27.0.3
+    "@typescript-eslint/eslint-plugin": ^5.37.0
+    "@typescript-eslint/parser": ^5.37.0
+    eslint: ^8.23.1
+    eslint-config-prettier: ^8.5.0
+    eslint-plugin-prettier: ^4.2.1
+    jest: ^27.4.5
+    jest-cli: ^27.4.5
+    prettier: ^2.7.1
+    puppeteer: ^10.0.0
+    typescript: ^4.8.3
+  languageName: unknown
+  linkType: soft
+
 "@nodelib/fs.scandir@npm:2.1.5":
   version: 2.1.5
   resolution: "@nodelib/fs.scandir@npm:2.1.5"
@@ -1773,47 +1814,6 @@ __metadata:
   checksum: 09b5a158ce013a6c37613258bad79ca4efeb99b1f59c41c73cca36cac00b258aefcf46eeea970fccf06b989414d86fe9f54c1102272c0c3bdd51a313cea80949
   languageName: node
   linkType: hard
-
-"@sisense/sjs-react@workspace:^, @sisense/sjs-react@workspace:packages/sjs-react":
-  version: 0.0.0-use.local
-  resolution: "@sisense/sjs-react@workspace:packages/sjs-react"
-  dependencies:
-    "@sisense/sjs": "workspace:^"
-    "@types/jest": ^27.0.3
-    "@types/node": ^15.12.2
-    "@types/react": ^17.0.34
-    "@types/react-dom": ^17.0.11
-    jest: ^27.4.5
-    jest-dom: ^3.0.2
-    np: ^3.1.0
-    react: ^18.2.0
-    react-dom: ^18.2.0
-    typescript: ^4.8.3
-  peerDependencies:
-    react: 17 - 18
-    react-dom: 17 - 18
-  languageName: unknown
-  linkType: soft
-
-"@sisense/sjs@workspace:^, @sisense/sjs@workspace:packages/sjs":
-  version: 0.0.0-use.local
-  resolution: "@sisense/sjs@workspace:packages/sjs"
-  dependencies:
-    "@stencil/core": ^2.18.0
-    "@stencil/react-output-target": ^0.3.1
-    "@types/jest": ^27.0.3
-    "@typescript-eslint/eslint-plugin": ^5.37.0
-    "@typescript-eslint/parser": ^5.37.0
-    eslint: ^8.23.1
-    eslint-config-prettier: ^8.5.0
-    eslint-plugin-prettier: ^4.2.1
-    jest: ^27.4.5
-    jest-cli: ^27.4.5
-    prettier: ^2.7.1
-    puppeteer: ^10.0.0
-    typescript: ^4.8.3
-  languageName: unknown
-  linkType: soft
 
 "@stencil/core@npm:^2.18.0":
   version: 2.18.0
@@ -9125,7 +9125,7 @@ __metadata:
     "@babel/preset-env": ^7.16.11
     "@babel/preset-react": ^7.16.7
     "@babel/runtime": ^7.17.9
-    "@sisense/sjs-react": "workspace:^"
+    "@mr-yum/sjs-react": "workspace:^"
     babel-loader: ^8.2.3
     react: ^18.2.0
     react-dom: ^18.2.0
@@ -9146,7 +9146,7 @@ __metadata:
     "@babel/preset-env": ^7.16.11
     "@babel/preset-react": ^7.16.7
     "@babel/runtime": ^7.17.9
-    "@sisense/sjs-react": "workspace:^"
+    "@mr-yum/sjs-react": "workspace:^"
     "@types/react": ^18.0.27
     "@types/react-dom": ^18.0.10
     babel-loader: ^8.2.3
@@ -9171,7 +9171,7 @@ __metadata:
     "@babel/preset-env": ^7.16.11
     "@babel/preset-react": ^7.16.7
     "@babel/runtime": ^7.17.9
-    "@sisense/sjs-react": "workspace:^"
+    "@mr-yum/sjs-react": "workspace:^"
     "@types/react": ^18.0.27
     "@types/react-dom": ^18.0.10
     babel-loader: ^8.2.3
@@ -9196,7 +9196,7 @@ __metadata:
     "@babel/preset-env": ^7.16.11
     "@babel/preset-react": ^7.16.7
     "@babel/runtime": ^7.17.9
-    "@sisense/sjs-react": "workspace:^"
+    "@mr-yum/sjs-react": "workspace:^"
     "@types/react": ^18.0.27
     "@types/react-dom": ^18.0.10
     babel-loader: ^8.2.3
@@ -9221,7 +9221,7 @@ __metadata:
     "@babel/preset-env": ^7.16.11
     "@babel/preset-react": ^7.16.7
     "@babel/runtime": ^7.17.9
-    "@sisense/sjs-react": "workspace:^"
+    "@mr-yum/sjs-react": "workspace:^"
     "@types/react": ^18.0.27
     "@types/react-dom": ^18.0.10
     babel-loader: ^8.2.3
@@ -9246,7 +9246,7 @@ __metadata:
     "@babel/preset-env": ^7.16.11
     "@babel/preset-react": ^7.16.7
     "@babel/runtime": ^7.17.9
-    "@sisense/sjs-react": "workspace:^"
+    "@mr-yum/sjs-react": "workspace:^"
     "@types/react": ^18.0.27
     "@types/react-dom": ^18.0.10
     babel-loader: ^8.2.3
@@ -9271,7 +9271,7 @@ __metadata:
     "@babel/preset-env": ^7.16.11
     "@babel/preset-react": ^7.16.7
     "@babel/runtime": ^7.17.9
-    "@sisense/sjs-react": "workspace:^"
+    "@mr-yum/sjs-react": "workspace:^"
     "@types/react": ^18.0.27
     "@types/react-dom": ^18.0.10
     babel-loader: ^8.2.3
@@ -9296,7 +9296,7 @@ __metadata:
     "@babel/preset-env": ^7.16.11
     "@babel/preset-react": ^7.16.7
     "@babel/runtime": ^7.17.9
-    "@sisense/sjs-react": "workspace:^"
+    "@mr-yum/sjs-react": "workspace:^"
     "@types/react": ^18.0.27
     "@types/react-dom": ^18.0.10
     babel-loader: ^8.2.3

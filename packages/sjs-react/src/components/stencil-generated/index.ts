@@ -3,9 +3,9 @@
 /* auto-generated react proxies */
 import { createReactComponent } from './react-component-lib';
 
-import type { JSX } from '@sisense/sjs';
+import type { JSX } from '@mr-yum/sjs';
 
-import { defineCustomElements } from '@sisense/sjs/loader';
+import { defineCustomElements } from '@mr-yum/sjs/loader';
 
 defineCustomElements();
 export const SisenseApp = /*@__PURE__*/createReactComponent<JSX.SisenseApp, HTMLSisenseAppElement>('sisense-app');

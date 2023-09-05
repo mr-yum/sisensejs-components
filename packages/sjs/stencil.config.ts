@@ -5,7 +5,7 @@ export const config: Config = {
   namespace: 'sjs',
   outputTargets: [
     reactOutputTarget({
-      componentCorePackage: '@sisense/sjs',
+      componentCorePackage: '@mr-yum/sjs',
       proxiesFile: '../sjs-react/src/components/stencil-generated/index.ts',
       includeDefineCustomElements: true,
     }),

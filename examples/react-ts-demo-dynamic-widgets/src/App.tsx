@@ -4,7 +4,7 @@ import {
   SisenseDashboard,
   SisenseFilters,
   SisenseWidget
-} from "@sisense/sjs-react";
+} from "@mr-yum/sjs-react";
 
 function App() {
   const [widgetIds, setWidgetIds] = useState<string[]>([]);

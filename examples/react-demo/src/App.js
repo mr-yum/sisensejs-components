@@ -1,4 +1,4 @@
-import {SisenseApp, SisenseDashboard, SisenseWidget} from "@sisense/sjs-react";
+import {SisenseApp, SisenseDashboard, SisenseWidget} from "@mr-yum/sjs-react";
 
 function App() {
 

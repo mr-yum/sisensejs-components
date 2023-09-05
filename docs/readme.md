@@ -28,7 +28,7 @@ The various npm packages contained within, are deployed via Github Packages. Fol
 For npm and Yarn classic:
 
 ```sh
-npm config set "@sisense:registry" "https://npm.pkg.github.com" --userconfig .npmrc
+npm config set "@mr-yum:registry" "https://npm.pkg.github.com" --userconfig .npmrc
 ```
 
 For Yarn 2+:
@@ -63,13 +63,13 @@ For more information, please refer to [Github Packages documentation](https://do
 npm:
 
 ```sh
-npm install @sisense/sjs-react --save
+npm install @mr-yum/sjs-react --save
 ```
 
 Yarn:
 
 ```sh
-yarn add @sisense/sjs-react
+yarn add @mr-yum/sjs-react
 ```
 
 ### Step 3: Import the package into your code
@@ -78,7 +78,7 @@ Import all or some of the types the package includes, for example:
 
 ```ts
 // Import the components you need
-import { SisenseApp, SisenseDashboard, SisenseWidget } from "@sisense/sjs-react";
+import { SisenseApp, SisenseDashboard, SisenseWidget } from "@mr-yum/sjs-react";
 ```
 
 ### Step 4: Embed using components
