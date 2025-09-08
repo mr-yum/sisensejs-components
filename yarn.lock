@@ -1307,7 +1307,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/runtime@npm:^7.17.9, @babel/runtime@npm:^7.8.4":
+"@babel/runtime@npm:^7.26.10":
+  version: 7.28.4
+  resolution: "@babel/runtime@npm:7.28.4"
+  checksum: 934b0a0460f7d06637d93fcd1a44ac49adc33518d17253b5a0b55ff4cb90a45d8fe78bf034b448911dbec7aff2a90b918697559f78d21c99ff8dbadae9565b55
+  languageName: node
+  linkType: hard
+
+"@babel/runtime@npm:^7.8.4":
   version: 7.17.9
   resolution: "@babel/runtime@npm:7.17.9"
   dependencies:
@@ -9124,7 +9131,7 @@ __metadata:
     "@babel/plugin-transform-runtime": ^7.17.0
     "@babel/preset-env": ^7.16.11
     "@babel/preset-react": ^7.16.7
-    "@babel/runtime": ^7.17.9
+    "@babel/runtime": ^7.26.10
     "@mr-yum/sjs-react": "workspace:^"
     babel-loader: ^8.2.3
     react: ^18.2.0
@@ -9145,7 +9152,7 @@ __metadata:
     "@babel/plugin-transform-runtime": ^7.17.0
     "@babel/preset-env": ^7.16.11
     "@babel/preset-react": ^7.16.7
-    "@babel/runtime": ^7.17.9
+    "@babel/runtime": ^7.26.10
     "@mr-yum/sjs-react": "workspace:^"
     "@types/react": ^18.0.27
     "@types/react-dom": ^18.0.10
@@ -9170,7 +9177,7 @@ __metadata:
     "@babel/plugin-transform-runtime": ^7.17.0
     "@babel/preset-env": ^7.16.11
     "@babel/preset-react": ^7.16.7
-    "@babel/runtime": ^7.17.9
+    "@babel/runtime": ^7.26.10
     "@mr-yum/sjs-react": "workspace:^"
     "@types/react": ^18.0.27
     "@types/react-dom": ^18.0.10
@@ -9195,7 +9202,7 @@ __metadata:
     "@babel/plugin-transform-runtime": ^7.17.0
     "@babel/preset-env": ^7.16.11
     "@babel/preset-react": ^7.16.7
-    "@babel/runtime": ^7.17.9
+    "@babel/runtime": ^7.26.10
     "@mr-yum/sjs-react": "workspace:^"
     "@types/react": ^18.0.27
     "@types/react-dom": ^18.0.10
@@ -9220,7 +9227,7 @@ __metadata:
     "@babel/plugin-transform-runtime": ^7.17.0
     "@babel/preset-env": ^7.16.11
     "@babel/preset-react": ^7.16.7
-    "@babel/runtime": ^7.17.9
+    "@babel/runtime": ^7.26.10
     "@mr-yum/sjs-react": "workspace:^"
     "@types/react": ^18.0.27
     "@types/react-dom": ^18.0.10
@@ -9245,7 +9252,7 @@ __metadata:
     "@babel/plugin-transform-runtime": ^7.17.0
     "@babel/preset-env": ^7.16.11
     "@babel/preset-react": ^7.16.7
-    "@babel/runtime": ^7.17.9
+    "@babel/runtime": ^7.26.10
     "@mr-yum/sjs-react": "workspace:^"
     "@types/react": ^18.0.27
     "@types/react-dom": ^18.0.10
@@ -9270,7 +9277,7 @@ __metadata:
     "@babel/plugin-transform-runtime": ^7.17.0
     "@babel/preset-env": ^7.16.11
     "@babel/preset-react": ^7.16.7
-    "@babel/runtime": ^7.17.9
+    "@babel/runtime": ^7.26.10
     "@mr-yum/sjs-react": "workspace:^"
     "@types/react": ^18.0.27
     "@types/react-dom": ^18.0.10
@@ -9295,7 +9302,7 @@ __metadata:
     "@babel/plugin-transform-runtime": ^7.17.0
     "@babel/preset-env": ^7.16.11
     "@babel/preset-react": ^7.16.7
-    "@babel/runtime": ^7.17.9
+    "@babel/runtime": ^7.26.10
     "@mr-yum/sjs-react": "workspace:^"
     "@types/react": ^18.0.27
     "@types/react-dom": ^18.0.10
